@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Black Hole Viewer (cached)</title>
+  <style>
+    html,body { height:100%; margin:0; background:#000; color:#fff; }
+    #canvas { width:100vw; height:100vh; display:block; }
+    #ui { position: fixed; left:12px; top:12px; background:rgba(0,0,0,0.6); padding:10px; border-radius:8px; z-index:10; }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <div id="ui">Black hole viewer — loads cache <br><small>blackhole.json</small></div>
+
+  <script type="module" src="./viewer.js"></script>
+</body>
+</html>
